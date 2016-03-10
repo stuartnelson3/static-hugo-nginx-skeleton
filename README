@@ -1,0 +1,8 @@
+STATIC HUGO NGINX CONTAINER SKELETON
+
+Skeleton for creating an alpine-linux based nginx container that will run your
+static Hugo site (http://gohugo.io/).
+
+Copy your Hugo-generated public/ folder here, and then make build.
+
+Update the nginx.conf for whatever you need.
