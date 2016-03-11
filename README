@@ -6,3 +6,11 @@ static Hugo site (http://gohugo.io/).
 Copy your Hugo-generated public/ folder here, and then make build.
 
 Update the nginx.conf for whatever you need.
+
+HTTP/2
+
+key.pem and cert.pem were both generated using go:
+
+% go run /usr/local/go/src/crypto/tls/generate_cert.go --host <host-name> --ca
+
+Acquiring a real SSL Certificate is necessary.
